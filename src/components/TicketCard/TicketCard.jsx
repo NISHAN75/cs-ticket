@@ -1,4 +1,6 @@
 import { CalendarDays, User } from 'lucide-react';
+import { toast } from 'react-toastify';
+
 
 const TicketCard = ({ ticket, isProgress, setProgress, resolvedTasks }) => {
   const isInProgress = isProgress.some(t => t.id === ticket.id);
@@ -7,9 +9,13 @@ const TicketCard = ({ ticket, isProgress, setProgress, resolvedTasks }) => {
   const statusLabel = isResolved ? "Closed" : isInProgress ? "In-Progress" : "Open";
 
   const handleProgress = () => {
-    if (isInProgress || isResolved) return;
+    if (isInProgress || isResolved){
+      toast("this is alreay Exit");
+      return
+    };
     const updatedTicket = { ...ticket, status: "In-Progress" };
     setProgress([...isProgress, updatedTicket]);
+    toast("this is alreay In-Progress");
   };
 
   const statusStyles = {

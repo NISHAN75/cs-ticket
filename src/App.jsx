@@ -1,10 +1,12 @@
 import { Suspense, useState } from 'react';
+import { ToastContainer } from 'react-toastify';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import StatCards from './components/StatCards/StatCards';
 import TaskSidebar from './components/TaskSidebar/TaskSidebar';
 import TicketCards from './components/TicketCards/TicketCards';
+
 
 const fetchTickets = async () => {
   const res = await fetch("../public/ticket.json");
@@ -41,6 +43,7 @@ export default function App() {
         </Suspense>
       </div>
       <Footer />
+      <ToastContainer />
     </>
   );
 }

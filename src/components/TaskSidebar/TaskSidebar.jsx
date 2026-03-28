@@ -1,9 +1,11 @@
-const TaskSidebar = ({ isProgress, setProgress, resolvedTasks, setResolvedTasks }) => {
+import { toast } from 'react-toastify';
 
+const TaskSidebar = ({ isProgress, setProgress, resolvedTasks, setResolvedTasks }) => {
   const handleComplete = (task) => {
     const remainingTasks = isProgress.filter(item => item.id !== task.id);
     setProgress(remainingTasks);
     setResolvedTasks([...resolvedTasks, task]);
+    toast("this is Completed");
   };
 
   return (

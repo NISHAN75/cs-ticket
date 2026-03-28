@@ -4,7 +4,9 @@ body{
 }
 
 .container{
-  max-width: 1464px;
+  max-width: 1484px;
   margin-right: auto;
   margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }

@@ -1,11 +1,11 @@
 
 const Navbar = () => {
   return (
-    <nav className=" sticky top-0 px-8 py-4 bg-white border-b border-gray-100">
+    <nav className=" sticky top-0 px-8 py-4 bg-white border-b border-gray-100 z-10">
         <div className="container">
             <div className="flex items-center justify-between">
                 {/* Left Side: Brand Name */}
-                <div className="text-xl font-bold text-slate-900">
+                <div className="text-xl font-bold text-slate-900 mx-auto md:ml-0">
                     CS — Ticket System
                 </div>
 
@@ -21,7 +21,7 @@ const Navbar = () => {
                     </div>
 
                     {/* New Ticket Button */}
-                    <button type="button" className="flex items-center bg-[#7c4dff] hover:bg-[#6a3fdf] text-white px-5 py-2 rounded-lg font-semibold transition-all shadow-sm cursor-pointer">
+                    <button type="button" className="hidden md:flex items-center bg-[#7c4dff] hover:bg-[#6a3fdf] text-white px-5 py-2 rounded-lg font-semibold transition-all shadow-sm cursor-pointer ">
                     <span className="mr-2 text-lg">+</span>
                     New Ticket
                     </button>

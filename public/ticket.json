@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can't Access Account",
+    "status": "Open",
+    "priority": "High",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still cannot gain access.",
+    "user": "John Smith",
+    "date": "1/15/2024"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed - Card Declined",
+    "status": "Open",
+    "priority": "High",
+    "description": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance in the account.",
+    "user": "Sarah Johnson",
+    "date": "1/16/2024"
+  },
+  {
+    "id": 1003,
+    "title": "Unable to Download Invoice",
+    "status": "Open",
+    "priority": "Medium",
+    "description": "Customer cannot download their January invoice from the billing section. The download button is unresponsive on Chrome.",
+    "user": "Michael Brown",
+    "date": "1/17/2024"
+  },
+  {
+    "id": 1004,
+    "title": "Incorrect Billing Address",
+    "status": "Open",
+    "priority": "Low",
+    "description": "Customer's billing address shows a different city. They updated it in profile but it still displays the old one on checkout.",
+    "user": "Emily Davis",
+    "date": "1/18/2024"
+  },
+  {
+    "id": 1005,
+    "title": "App Crash on Launch",
+    "status": "Open",
+    "priority": "High",
+    "description": "Customer reports that the mobile app crashes immediately upon opening on Android 13 devices. Needs urgent fix.",
+    "user": "David Wilson",
+    "date": "1/19/2024"
+  },
+  {
+    "id": 1006,
+    "title": "Refund Not Processed",
+    "status": "Open",
+    "priority": "Medium",
+    "description": "Customer requested a refund two weeks ago for order #8821 but has not received the amount in their bank yet.",
+    "user": "Sophia Taylor",
+    "date": "1/20/2024"
+  },
+  {
+    "id": 1007,
+    "title": "Two-Factor Authentication Issue",
+    "status": "Open",
+    "priority": "High",
+    "description": "Customer is not receiving 2FA codes on their registered phone number via SMS. Email 2FA is working though.",
+    "user": "James Anderson",
+    "date": "1/21/2024"
+  },
+  {
+    "id": 1008,
+    "title": "Unable to Update Profile Picture",
+    "status": "Open",
+    "priority": "Low",
+    "description": "Customer tries to upload a new profile picture (JPG, 2MB) but gets an 'Upload failed' server error every time.",
+    "user": "Olivia Martinez",
+    "date": "1/22/2024"
+  },
+  {
+    "id": 1009,
+    "title": "Subscription Auto-Renewal",
+    "status": "Open",
+    "priority": "Medium",
+    "description": "Customer wants to enable auto-renewal for their premium subscription but the toggle is disabled in the settings dashboard.",
+    "user": "Liam Thomas",
+    "date": "1/17/2024"
+  },
+  {
+    "id": 1010,
+    "title": "Missing Order Confirmation Email",
+    "status": "Open",
+    "priority": "Medium",
+    "description": "Customer placed an order but didn't receive a confirmation email even though the payment was successfully processed.",
+    "user": "Isabella Garcia",
+    "date": "1/24/2024"
+  },
+  {
+    "id": 1011,
+    "title": "API Key Integration Error",
+    "status": "Open",
+    "priority": "High",
+    "description": "Developer customer reporting '401 Unauthorized' error even with a valid production API key. Integration is blocked.",
+    "user": "Robert Chen",
+    "date": "1/25/2024"
+  },
+  {
+    "id": 1012,
+    "title": "Search Filter Not Working",
+    "status": "Open",
+    "priority": "Low",
+    "description": "The date range filter in the transaction history page is not returning any results for the year 2023.",
+    "user": "Jessica Lee",
+    "date": "1/26/2024"
+  },
+  {
+    "id": 1013,
+    "title": "Spelling Mistake in UI",
+    "status": "Open",
+    "priority": "Low",
+    "description": "There is a typo in the 'Cencel Subscription' button. It should be spelled as 'Cancel'. Found on the billing page.",
+    "user": "Mark Thompson",
+    "date": "1/27/2024"
+  },
+  {
+    "id": 1014,
+    "title": "Export to CSV Failing",
+    "status": "Open",
+    "priority": "Medium",
+    "description": "When trying to export large reports (5000+ rows) to CSV, the system timed out with a 504 Gateway error.",
+    "user": "Karen White",
+    "date": "1/28/2024"
+  },
+  {
+    "id": 1015,
+    "title": "Bulk Notification Issue",
+    "status": "Open",
+    "priority": "High",
+    "description": "Internal team reporting that bulk push notifications are only reaching 20% of the target user base.",
+    "user": "Alex Rivera",
+    "date": "1/29/2024"
+  }
+]

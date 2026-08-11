@@ -1,16 +1,117 @@
-# React + Vite
+# 🎫 Customer Support Ticket System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Customer Support Ticket Management Dashboard** built with React and Tailwind CSS. The application helps support teams efficiently manage customer tickets, track ongoing tasks, and monitor resolved issues through an intuitive dashboard interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🎫 View and manage customer support tickets
+* 📊 Dashboard statistics for ticket progress and resolved tasks
+* 🔄 Move tickets into the active task/progress section
+* ✅ Mark support tickets as resolved
+* 📋 View active tasks from the task sidebar
+* 🔔 Toast notifications for user actions
+* 📱 Fully responsive design for desktop, tablet, and mobile
+* ⚡ Fast and modern UI built with React and Vite
+* 🎨 Utility-first styling with Tailwind CSS
+* 🧩 Reusable and component-based React architecture
 
-## React Compiler
+## 🛠️ Technology Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React 19**
+* **Vite**
+* **Tailwind CSS**
+* **JavaScript (ES6+)**
+* **React Toastify**
+* **Lucide React**
+* **React Icons**
+* **HTML5**
+* **CSS3**
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+cs-ticket/
+├── public/
+│   └── ticket.json
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Footer/
+│   │   ├── Navbar/
+│   │   ├── StatCard/
+│   │   ├── StatCards/
+│   │   ├── TaskSidebar/
+│   │   ├── TicketCard/
+│   │   └── TicketCards/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/NISHAN75/cs-ticket.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd cs-ticket
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local development URL shown in your terminal.
+
+## 📊 Ticket Management
+
+The application includes sample customer support tickets with information such as:
+
+* Ticket ID
+* Customer name
+* Issue title
+* Description
+* Priority
+* Status
+* Date
+
+Users can move tickets into the active task section and mark completed tickets as resolved.
+
+## 📱 Responsive Design
+
+The dashboard is designed to provide a smooth experience across:
+
+* 💻 Desktop
+* 💻 Laptop
+* 📱 Tablet
+* 📱 Mobile
+
+## 🔗 Links
+
+**GitHub Repository:**
+https://github.com/NISHAN75/cs-ticket
+
+## 👨‍💻 Author
+
+**Nishan Das**
+
+Frontend Developer
+
+GitHub: https://github.com/NISHAN75
